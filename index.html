@@ -59,8 +59,13 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <button class="btn btn-warning btn-sm btn-block" type="button">
+                        <a href="#reserve_table" class="text-dark">Reserve Table</a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -101,19 +106,14 @@
             </div>
             <div class="col col-sm col-md order-sm-last">
                 <div class="media">
-                    <img src="img/buffet.png" class="d-flex mr-3 img-thumbnail align-self-center" alt="buffet">
                     <div class="media-body">
                         <h2 class="mt-0">
                             Weekend Grand Buffet
                             <span class="badge badge-danger">
-                                HOT
-                            </span>
-                            <span class="badge badge-pill bg-secondary text-white">
-                                $4.99
+                                NEW
                             </span>
                         </h2>
                         <div class="d-none d-sm-block">
-
                             <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing
                                 appetizers,
                                 six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All
@@ -121,6 +121,9 @@
                                 just
                                 $19.99 per person </p>
                         </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <img src="img/buffet.png" class="d-flex ml-3 img-thumbnail align-self-center" alt="buffet">
                     </div>
                 </div>
             </div>
@@ -149,6 +152,44 @@
                 </div>
             </div>
         </div>
+        <div class="row row-content" id="reserve_table">
+            <div class="col-12 col-sm-8 offset-sm-2">
+                <div class="card" id="reserve_table">
+                    <h1 class="card-header bg-warning text-white">
+                        Reserve a Table
+                    </h1>
+                    <div class="card-body">
+                        <form>
+                            <div class="row form-group">
+                                <label class="col-md-2 col-12 col-form-label">Number Of Guests</label>
+                                <div class="col-12 col-md-10">
+                                    <input type="radio" id="1" name="guests"> 1&nbsp;
+                                    <input type="radio" id="2" name="guests"> 2&nbsp;
+                                    <input type="radio" id="3" name="guests"> 3&nbsp;
+                                    <input type="radio" id="4" name="guests"> 4&nbsp;
+                                    <input type="radio" id="5" name="guests"> 5&nbsp;
+                                    <input type="radio" id="6" name="guests"> 6&nbsp;
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-form-label col-12 col-md-2" for="dateTime">Date and time</label>
+                                <div class="col-12 col-md-3">
+                                    <input type="text" class="form-control" id="dateTime" name="date" placeholder="Date">
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <input type="text" class="form-control" id="dateTime" name="time" placeholder="Time">
+                                </div>
+                            </div>
+                            <div class="offset-md-2">
+                                <button class="btn btn-primary" type="submit">Reserve</button>
+                            </div>
+                        </form>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <footer class="footer">
@@ -175,13 +216,25 @@
                     </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
-                    <div>
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-openid" href="mailto:">
+                            <i class="fa fa-envelope-o"></i>
+                        </a>
                     </div>
                 </div>
             </div>
